@@ -8,16 +8,32 @@ body{
 }
 h1{
     font-size: 2em;
+    margin-bottom: 0px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* Couleur des filtres */
+#filtres .fa-solid, #section2 .fa-solid, .fa-info { /* Couleur des icônes */
+    color:#0065FC
+}
+#section2 .black{
+    color: #F2F2F2;
 }
 
 /* Header */
 header{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding-top: 60px;
 }
 
+
 nav ul{
-    padding: 10px;
+    padding: 0 10px 10px 10px;
     display: flex;
     justify-content: space-between;
     width: 400px;
@@ -26,28 +42,27 @@ nav ul{
 }
 
 nav a{
-    text-decoration: none;
-    color: black;
-    padding-top: 35px;
+    padding-top: 84px;
 }
 
 nav a:hover{
     color:#0065FC;
-    border-top: 1px solid #0065FC;
+    border-top: 3px solid #0065FC;
 }
 
 /* section 1 */
 #section1 p{
     font-size: 1.5em;
 }
-
+#section1>p{
+    margin-top: 10px;
+}
 /* Barre de recherche */
 
 
 #rechercher{
     display: flex;
 }
-
 #point{
     padding: 15px 12px 15px 22px;
     background-color: #F2F2F2;
@@ -75,13 +90,18 @@ nav a:hover{
 
 /* filtres */
 
+
 #filtres{
     display: flex;
     width: 1200px;
+    align-items: center;
+}
+#filtres h1{
+    margin: 0;
 }
 #filtres p{
     margin-left:50px;
-    border: 1px solid #F2F2F2;
+    border: 2px solid #F2F2F2;
     padding: 5px;
     border-radius: 35px;
     padding: 15px;
@@ -92,16 +112,29 @@ nav a:hover{
     background-color: #DEEBFF;
 }
 
-#filtres .fa-solid {color:#0065FC} /* Couleur des icônes */
+.fa-info{
+    border: 1px solid #F2F2F2;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 5px 0 0;
+}
+#info{
+    display: flex;
+}
 
 /* section2 */
 
 #section2{
     display: flex;
-    justify-content: space-between;
 }
-
-#carres{
+#section2 h1{
+    margin-left: 40px;
+}
+#carres, .description{
     display: flex;
     flex-direction: column;
 }
@@ -112,10 +145,10 @@ nav a:hover{
 }
 .carré{
     width: 30%;
-    height: 190px;
+    height: 200px;
     border-radius: 20px;
     background-color: white;
-    box-shadow: 3px 3px 5px 1px;/* en-dessous, à droite, niveau de flou */
+    box-shadow: 0px 2px 6px 1px lightgray;/* en-dessous, à droite, niveau de flou */
 }
 
 .carré img{
@@ -125,7 +158,13 @@ nav a:hover{
     height: 50%;
     object-fit: cover; /*  permet à l'image de s'afficher dimensionnée comme on veut */
 }
+.description1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 40%;
 
+}
 .carré h2, aside h2{
     font-size: 1em;
     margin: 0 0 0 5px;
@@ -139,17 +178,11 @@ nav a:hover{
     border-radius: 20px;
     width: 66%;
 }
-
-/* étoiles */
-
-.fa-solid{
-    color: #0065FC;
+#afficher{
+    margin-left: 40px;
+    font-weight: bold;
+    font-size: 1.2em;
 }
-
-.fa-sharp{
-    color: black;
-}
-
 /* aside */
 aside{
     background-color: #F2F2F2;
@@ -168,7 +201,9 @@ aside h1{
     width: 50px;
     text-align: right;
 }
-
+.description{
+    justify-content: space-between;
+}
 aside img{
     width: 35%;
     height: 93%;
@@ -176,11 +211,14 @@ aside img{
     object-fit: cover;
     margin: 5px
 }
+aside p{
+    margin-bottom: 15px;
+}
 .carré2{
     border-radius: 20px;
     margin: 0 40px 40px 40px;
     background-color: white;
-    box-shadow: 1px 1px 5px 1px;
+    box-shadow: 0px 2px 6px 1px lightgray;
     height: 22%;
     display: flex;
 }
@@ -194,7 +232,7 @@ aside img{
 .carre3{
     width: 23%;
     height: 430px;
-    box-shadow: 1px 1px 5px 1px grey;
+    box-shadow: 0px 2px 6px 1px lightgray;
     border-radius: 20px;
 }
 .carre3 img{
@@ -202,6 +240,10 @@ aside img{
     width: 100%;
     height: 87%;
     border-radius: 20px 20px 0 0;
+}
+.carre3 p{
+    font-weight: bold;
+    margin-left: 20px;
 }
 /* Footer */
 footer{
