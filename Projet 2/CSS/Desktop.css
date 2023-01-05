@@ -31,9 +31,12 @@ header{
     padding-top: 60px;
 }
 
+header img{
+    width: 90px;
+}
 
 nav ul{
-    padding: 0 10px 10px 10px;
+    padding: 0 30px 10px 10px;
     display: flex;
     justify-content: space-between;
     width: 400px;
@@ -57,6 +60,7 @@ nav a:hover{
 #section1>p{
     margin-top: 10px;
 }
+
 /* Barre de recherche */
 
 
@@ -130,6 +134,9 @@ nav a:hover{
 
 #section2{
     display: flex;
+}
+#section2 a{
+    display: inline;
 }
 #section2 h1{
     margin-left: 40px;
