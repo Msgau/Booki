@@ -1,3 +1,23 @@
+body{
+    min-width: 992px;
+}
 header{
     background-color: red;
 }
+#section2{
+    flex-direction: column;
+}
+
+#hebergements{
+    width: 90%; 
+    margin-bottom: 60px;
+}
+aside{
+    width: 90%;
+}
+.carré2{
+    height:215px;
+}
+/* #carreaside{
+    flex-direction: row;
+} */

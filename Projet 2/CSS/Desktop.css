@@ -71,7 +71,7 @@ nav li:hover{
     display: flex;
 }
 #point{
-    padding: 15px 12px 15px 22px;
+    padding: 22px 22px 22px 30px;
     background-color: #F2F2F2;
     border-radius: 15px 0 0 15px;
     width: 25px;
@@ -81,12 +81,14 @@ nav li:hover{
     background-color: #0065FC;
     color: white;
     font-weight: bold;
-    padding: 16px;
+    padding: 22px 26px 22px 26px;
     border-radius: 0px 15px 15px 0px;
 }
-
+#fondloupe{
+    display: none;
+}
 #Zone{
-    height: 56px;
+    height: 70px;
     border: 1px solid #F2F2F2;
     border-radius: 0px;
     font-weight: bold;
@@ -109,14 +111,17 @@ nav li:hover{
     margin: 0;
 }
 #filtres p{
-    margin-left:50px;
-    border: 3px solid #F2F2F2;
+    margin-right:28px;
     padding: 5px;
+    border: 3px solid #F2F2F2;
     border-radius: 35px;
     padding: 15px;
     font-weight: bold;
+    font-size: 1.2em;
 }
-
+.fa-heart, .fa-money-bill-wave, .fa-dog, .fa-person{
+    padding-right: 10px;
+}
 #filtres p:hover{
     background-color: #DEEBFF;
 }
@@ -177,7 +182,6 @@ nav li:hover{
     flex-direction: column;
     justify-content: space-between;
     height: 40%;
-
 }
 .carré h2, aside h2{
     font-size: 1em;
@@ -198,11 +202,12 @@ nav li:hover{
     font-size: 1.2em;
 }
 /* aside */
+
 aside{
     background-color: #F2F2F2;
     margin-left: 20px;
     border-radius: 20px;
-    width: 34%; 
+    width: 34%;
 }
 aside h1{
     margin: 40px 0 0 40px;
@@ -215,9 +220,11 @@ aside h1{
     width: 50px;
     text-align: right;
 }
-.description{
+/* #carresaside{
+    display: flex;
+    flex-direction: column;
     justify-content: space-between;
-}
+} */
 aside img{
     width: 35%;
     height: 93%;
@@ -225,23 +232,32 @@ aside img{
     object-fit: cover;
     margin: 5px
 }
-aside p{
-    margin-bottom: 15px;
-}
 .carré2{
     border-radius: 20px;
     margin: 0 40px 40px 40px;
     background-color: white;
     box-shadow: 0px 2px 6px 1px lightgray;
-    height: 22%;
     display: flex;
+    height: 145px;
+
 }
+.description{
+    justify-content: space-between;
+}
+/* #carresaside a{
+    height: 22%;
+} */
+aside p{
+    margin-bottom: 15px;
+}
+
 .carré2 p{
     margin-top: 7px;
 }
 .carré2 h2{
     margin-top: 15px;
-}
+} 
+
 /* Section 3 */
 
 #section3 h1{
