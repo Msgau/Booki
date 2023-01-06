@@ -1,3 +1,6 @@
+body{
+    min-width: 0px;
+}
 header{
     flex-direction: column;
     align-items: center;
@@ -23,9 +26,16 @@ ul li:active{
 #fondRecherche{
     display: none; 
 }
+#fondloupe{
+    padding: 22px 26px 22px 26px;
+    background-color: #0065FC;
+    color: white;
+    border-radius: 0 15px 15px 0;
+    width: 25px;
+}
 #filtres{
     flex-direction: column;
-    align-items: baseline; /*  marche pas */
+    align-items: baseline;
 }
 .filtremob, .bloc, #bloc3, footer{
     flex-direction: column;
@@ -35,11 +45,9 @@ ul li:active{
     flex-direction: column-reverse;
 }
 
-.carré{
-    width: 90%; /*  marche pas */
-}
-#hebergements{
-    width: 100%; /*  marche pas */
+.carré, #bloc3 a{
+    width: 90%;
+    margin-bottom: 30px;
 }
 
 footer{
@@ -47,7 +55,16 @@ footer{
 }
 #hebergements{
     width: 100%;
+    background-color: white;
 }
-aside{
+aside, #section3{
     width: 100%;
+    border-radius: 0;
+    margin: 0;
+}
+#afficher{
+    display: none;
+}
+.carré2{
+    height: 230px;
 }
