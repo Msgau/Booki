@@ -27,6 +27,7 @@ ul li:active{
     display: none; 
 }
 #fondloupe{
+    display: block;
     padding: 22px 26px 22px 26px;
     background-color: #0065FC;
     color: white;
@@ -37,10 +38,18 @@ ul li:active{
     flex-direction: column;
     align-items: baseline;
 }
-.filtremob, .bloc, #bloc3, footer{
+#blocfiltre{
+    flex-direction: column;
+}
+#blocfiltre p{
+    width: 200px;
+    font-size: 1.1em;
+}
+.bloc, #bloc3, footer{
     flex-direction: column;
     width: 100%;
 }
+
 #section2{
     flex-direction: column-reverse;
 }
