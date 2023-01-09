@@ -40,6 +40,7 @@ nav ul{
     display: flex;
     list-style-type: none;
     font-size: 2em;
+    margin: 0px;
 }
 nav li{
     width: 250px;
@@ -57,44 +58,50 @@ nav li:hover{
 
 /* section 1 */
 
-#section1 p{
-    font-size: 1.5em;
-}
 #section1>p{
     margin-top: 10px;
 }
 
 /* Barre de recherche */
-
-
 #rechercher{
     display: flex;
 }
-#point{
-    padding: 22px 22px 22px 30px;
-    background-color: #F2F2F2;
-    border-radius: 15px 0 0 15px;
-    width: 25px;
+.point{
+    width: 14px;
+    height: 18px;
 }
 
+#point{
+    /* padding: 16px 18px 15px 18px; */
+    background-color: #F2F2F2;
+    border-radius: 15px 0 0 15px;
+    min-width: 50px;
+    height: 49px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 #fondRecherche{
     background-color: #0065FC;
     color: white;
     font-weight: bold;
-    padding: 22px 26px 22px 26px;
     border-radius: 0px 15px 15px 0px;
+    width: 132px;
+    height: 49px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-left: 1px solid #0065FC; */
 }
 #fondloupe{
     display: none;
 }
+
 #Zone{
-    height: 70px;
+    height: 45px;
     border: 1px solid #F2F2F2;
-    border-radius: 0px;
     font-weight: bold;
-    width: 250px;
     padding-left: 15px;
-    font-size: 1em;
 }
 
 /* filtres */
@@ -106,6 +113,7 @@ nav li:hover{
 }
 #blocfiltre{
     display: flex;
+    margin-left: 28px;
 }
 #filtres h1{
     margin: 0;
@@ -138,10 +146,15 @@ nav li:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20px 5px 0 0;
+    margin: 10px 5px 0 0;
 }
 #info{
     display: flex;
+    margin-bottom: 20px;
+
+}
+#info p{
+    margin-left: 11px;
 }
 
 /* section2 */
@@ -152,6 +165,7 @@ nav li:hover{
 
 #section2 h1{
     margin-left: 40px;
+    /* padding-top: 20px; */
 }
 #carres, .description{
     display: flex;
@@ -163,8 +177,10 @@ nav li:hover{
     margin: 20px 40px 20px 40px;
 }
 .carré{
-    width: 30%;
-    height: 200px;
+    /* width: 30%; */
+    /* height: 200px; */
+    width: 246px;
+    height: 199px;
     border-radius: 20px;
     background-color: white;
     box-shadow: 0px 2px 6px 1px lightgray;/* en-dessous, à droite, niveau de flou */
@@ -185,10 +201,9 @@ nav li:hover{
 }
 .carré h2, aside h2{
     font-size: 1em;
-    margin: 0 0 0 5px;
 }
-.carré p, aside p{
-    margin: 0 0 0 5px;
+.carré p, aside p, .carré h2, aside h2{
+    margin: 0 0 0 16px;
 }
 #hebergements{
     background-color: #F2F2F2;
@@ -198,6 +213,7 @@ nav li:hover{
 }
 #afficher{
     margin-left: 40px;
+    padding-top: 15px;
     font-weight: bold;
     font-size: 1.2em;
 }
@@ -226,7 +242,7 @@ aside h1{
     justify-content: space-between;
 } */
 aside img{
-    width: 35%;
+    width: 137px;
     height: 93%;
     border-radius: 20px 0 0 20px;
     object-fit: cover;
@@ -238,7 +254,7 @@ aside img{
     background-color: white;
     box-shadow: 0px 2px 6px 1px lightgray;
     display: flex;
-    height: 145px;
+    height: 144px;
 
 }
 .description{
@@ -287,6 +303,9 @@ aside p{
     font-weight: bold;
     margin-left: 20px;
 }
+#section3 h1{
+    margin-bottom: 20px;
+}
 /* Footer */
 footer{
     display: flex;
@@ -295,7 +314,6 @@ footer{
     margin-top: 30px;
     border-radius: 3px;
 }
-
-#section3 h1{
-    margin-bottom: 20px;
+footer h2{
+    padding-bottom: 8px;
 }
