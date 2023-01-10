@@ -115,9 +115,9 @@ nav li:hover{
     display: flex;
     margin-left: 28px;
 }
-#filtres h1{
+/* #filtres h2{
     margin: 0;
-}
+} */
 #filtres p{
     margin-right:28px;
     padding: 5px;
@@ -163,9 +163,11 @@ nav li:hover{
     display: flex;
 }
 
-#section2 h1{
+#section2 h2{
     margin-left: 40px;
-    /* padding-top: 20px; */
+}
+#hebergements h2{
+    padding-top: 20px;
 }
 #carres, .description{
     display: flex;
@@ -178,7 +180,6 @@ nav li:hover{
 }
 .carré{
     /* width: 30%; */
-    /* height: 200px; */
     width: 246px;
     height: 199px;
     border-radius: 20px;
@@ -187,35 +188,38 @@ nav li:hover{
 }
 
 .carré img{
-    margin:5px;
+    /* margin:5px 5px 0 5px; */
     border-radius: 20px 20px 0 0px;
-    width: 95%;
-    height: 50%;
+    width: 236px;
+    height: 114px;
+    border: 5px solid white;
     object-fit: cover; /*  permet à l'image de s'afficher dimensionnée comme on veut */
 }
 .description1{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 40%;
+    height: 62px;
 }
-.carré h2, aside h2{
+.carré h3, aside h3{
     font-size: 1em;
 }
-.carré p, aside p, .carré h2, aside h2{
+.carré p, .carré h3{
     margin: 0 0 0 16px;
 }
+
 #hebergements{
     background-color: #F2F2F2;
     margin-right: 20px;
     border-radius: 20px;
     width: 66%;
+    min-width: 870px;
 }
 #afficher{
     margin-left: 40px;
-    padding-top: 15px;
     font-weight: bold;
     font-size: 1.2em;
+    margin-top: 15px;
 }
 /* aside */
 
@@ -224,8 +228,9 @@ aside{
     margin-left: 20px;
     border-radius: 20px;
     width: 34%;
+    min-width: 420px;
 }
-aside h1{
+aside h2{
     margin: 40px 0 0 40px;
     font-size: 1.5em;
 }
@@ -239,15 +244,15 @@ aside h1{
 /* #carresaside{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-} */
+    justify-content: space-between;} */
 aside img{
     width: 137px;
     height: 93%;
     border-radius: 20px 0 0 20px;
     object-fit: cover;
-    margin: 5px
+    margin: 5px;
 }
+
 .carré2{
     border-radius: 20px;
     margin: 0 40px 40px 40px;
@@ -255,57 +260,62 @@ aside img{
     box-shadow: 0px 2px 6px 1px lightgray;
     display: flex;
     height: 144px;
-
+    min-width: 368px;
 }
 .description{
     justify-content: space-between;
 }
-/* #carresaside a{
-    height: 22%;
-} */
-aside p{
-    margin-bottom: 15px;
+aside p, aside h3{
+    margin-left: 15px;
 }
-
+aside p{
+    margin-bottom: 12px;
+}
+aside h3{
+    margin-bottom: 7px;
+}
 .carré2 p{
     margin-top: 7px;
 }
-.carré2 h2{
-    margin-top: 15px;
+.carré2 h3{
+    margin-top: 16px;
+    font-size: 16px;
 } 
+/* #carresaside a{
+    height: 22%;} */
 
 /* Section 3 */
-
-#section3 h1{
+#section3{
+    min-width: 1350px;
+}
+#section3 h2{
     font-size: 1.4em;
-    margin-top: 50px;
+    margin: 60px 0 18.47px 0;
 }
 #bloc3, .pop{
     display: flex;
     justify-content: space-between;
 }
 #bloc3 a{
-    width: 23%;
-}
-.carre3{
-    width: 100%;
-    height: 430px;
+    /* width: 23%; */
+    width: 302px;
+    min-width: 302px;
+    height: 444.51px;
     box-shadow: 0px 2px 6px 1px lightgray;
     border-radius: 20px;
 }
 .carre3 img{
     object-fit: cover;
     width: 100%;
-    height: 87%;
+    /* height: 87%; */
+    height: 389px;
     border-radius: 20px 20px 0 0;
 }
 .carre3 p{
     font-weight: bold;
     margin-left: 20px;
 }
-#section3 h1{
-    margin-bottom: 20px;
-}
+
 /* Footer */
 footer{
     display: flex;
@@ -313,7 +323,11 @@ footer{
     background-color: #F2F2F2;
     margin-top: 30px;
     border-radius: 3px;
+    height: 225px;
 }
-footer h2{
-    padding-bottom: 8px;
+footer h3{
+    margin: 45px 0 20px 0;
+}
+footer p{
+    margin: 12px 0 12px 0;
 }
