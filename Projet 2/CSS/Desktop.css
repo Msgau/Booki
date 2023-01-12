@@ -5,11 +5,9 @@ body{
     max-width: 1400px;
     margin: 0 auto;
     font-family: raleway, Arial, Helvetica, sans-serif;
+    /* box-sizing: border-box; */
 }
-h1{
-    font-size: 1.4em;
-    margin-bottom: 0px;
-}
+
 a{
     text-decoration: none;
     color: black;
@@ -26,6 +24,8 @@ header, #section1, #section2, #section3{
 }
 
 /* Header */
+
+
 header{
     display: flex;
     justify-content: space-between;
@@ -34,19 +34,20 @@ header{
 
 header img{
     width: 90px;
+    margin-top: 38px;
 }
 
 nav ul{
     display: flex;
     list-style-type: none;
-    font-size: 2em;
+    font-size: 16px;
     margin: 0px;
 }
 nav li{
     width: 250px;
     display: flex;
     justify-content:center;
-    padding-top:35px;
+    padding-top:48px;
     border-top: 3px solid white;
 }
 nav a:hover, nav li:hover{
@@ -55,7 +56,11 @@ nav a:hover, nav li:hover{
 nav li:hover{
     border-top: 3px solid #0065FC;
 }
-
+h1{
+    font-size: 1.4em;
+    margin: 59px 0 9px 0;
+    padding: 0;
+}
 /* section 1 */
 
 #section1>p{
@@ -65,6 +70,7 @@ nav li:hover{
 /* Barre de recherche */
 #rechercher{
     display: flex;
+    height: 49px;
 }
 .point{
     width: 14px;
@@ -73,6 +79,7 @@ nav li:hover{
 
 #point{
     /* padding: 16px 18px 15px 18px; */
+    margin: 0;
     background-color: #F2F2F2;
     border-radius: 15px 0 0 15px;
     min-width: 50px;
@@ -81,20 +88,22 @@ nav li:hover{
     justify-content: center;
     align-items: center;
 }
-#fondRecherche{
+#fondRecherche, #fondloupe{
     background-color: #0065FC;
     color: white;
     font-weight: bold;
     border-radius: 0px 15px 15px 0px;
-    width: 132px;
-    height: 49px;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* border-left: 1px solid #0065FC; */
+}
+#fondRecherche{
+    width: 132px;
+    height: 49px;
 }
 #fondloupe{
     display: none;
+    margin: 0;
 }
 
 #Zone{
@@ -102,6 +111,7 @@ nav li:hover{
     border: 1px solid #F2F2F2;
     font-weight: bold;
     padding-left: 15px;
+    width: 211px;
 }
 
 /* filtres */
@@ -110,22 +120,23 @@ nav li:hover{
 #filtres{
     display: flex;
     align-items: center;
+    gap:28px;
 }
 #blocfiltre{
     display: flex;
-    margin-left: 28px;
+    /* margin-left: 28px; */
+    gap:28px;
 }
 /* #filtres h2{
     margin: 0;
 } */
 #filtres p{
-    margin-right:28px;
-    padding: 5px;
+    /* margin-right:28px; */
     border: 3px solid #F2F2F2;
     border-radius: 35px;
     padding: 15px;
-    font-weight: bold;
-    font-size: 1.2em;
+    font-weight: 700;
+    font-size: 17px;
 }
 .fa-heart, .fa-money-bill-wave, .fa-dog, .fa-person{
     padding-right: 10px;
@@ -162,12 +173,8 @@ nav li:hover{
 #section2{
     display: flex;
 }
-
-#section2 h2{
-    margin-left: 40px;
-}
 #hebergements h2{
-    padding-top: 20px;
+    margin: 42px 0 0 40px;
 }
 #carres, .description{
     display: flex;
@@ -210,7 +217,6 @@ nav li:hover{
 
 #hebergements{
     background-color: #F2F2F2;
-    margin-right: 20px;
     border-radius: 20px;
     width: 66%;
     min-width: 870px;
@@ -225,21 +231,20 @@ nav li:hover{
 
 aside{
     background-color: #F2F2F2;
-    margin-left: 20px;
+    margin-left: 40px;
     border-radius: 20px;
     width: 34%;
     min-width: 420px;
 }
-aside h2{
-    margin: 40px 0 0 40px;
+.pop{
+    align-items: center;
+    margin: 0 40px 0 40px;
+}
+aside h2, .fa-chart-line{
     font-size: 1.5em;
 }
-.fa-chart-line{
-    font-size: 1.5em;
-    margin: 40px 40px 0 0;
-    height: 50px;
-    width: 50px;
-    text-align: right;
+aside h2{
+    margin: 41px 0 26px 0;
 }
 /* #carresaside{
     display: flex;
