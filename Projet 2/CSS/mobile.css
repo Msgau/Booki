@@ -95,13 +95,13 @@ ul li:active{
 /* section 2 */
 /* On repose les bases */
 
-aside, #hebergements{
+aside, article{
     width: auto;
     margin-left: auto;
     min-width: 0px;
     border-radius: 0;
 }
-#hebergements{
+article{
     width: 100%;
     background-color: white;
 }
@@ -126,7 +126,7 @@ aside h2{
     margin-left : 15px;
 }
 /* Le main */
-#hebergements h2{
+article h2{
     margin: 26px 0 19px 20px;
 }
 .carré{

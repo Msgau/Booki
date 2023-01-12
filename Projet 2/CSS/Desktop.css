@@ -172,7 +172,7 @@ h1{
 #section2{
     display: flex;
 }
-#hebergements h2{
+article h2{
     margin: 42px 0 0 40px;
     font-size: 22px;
 }
@@ -217,7 +217,7 @@ h1{
 .carré p{
     font-size: 14px;
 }
-#hebergements{
+article{
     background-color: #F2F2F2;
     border-radius: 20px;
     width: 66%;
@@ -240,13 +240,14 @@ aside{
 }
 .pop{
     align-items: center;
-    margin: 0 40px 0 40px;
+    margin: 41px 42px 26px 37px;
 }
 aside h2, .fa-chart-line{
     font-size: 22px;
 }
+
 aside h2{
-    margin: 41px 0 26px 0;
+    margin: 0;
 }
 /* #carresaside{
     display: flex;
@@ -262,12 +263,12 @@ aside img{
 
 .carré2{
     border-radius: 20px;
-    margin: 0 40px 40px 40px;
+    margin: 0 40px 40px 37px;
     background-color: white;
     box-shadow: 0px 2px 6px 1px lightgray;
     display: flex;
     height: 144px;
-    min-width: 368px;
+    min-width: 343px;
 }
 .description{
     justify-content: space-between;
