@@ -12,8 +12,9 @@ a{
     text-decoration: none;
     color: black;
 }
-header, #section1, #section2, #section3{
-    margin: 0 20px 0 20px;
+header, #section1, #section2, #section3, footer{
+    margin: auto;
+    width: 1339px;
 }
 /* Couleur des filtres */
 #filtres .fa-solid, #section2 .fa-solid, .fa-info { /* Couleur des icônes */
