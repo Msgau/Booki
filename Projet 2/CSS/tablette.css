@@ -5,17 +5,17 @@
 #filtres{
     min-width: 835px;
 }
-
+header, #section1, #section2, #section3, footer, article, aside{
+    width: 880px;
+}
 /* Article */
 article{
     margin-bottom: 53px;
-    width: 880px;
     min-height: 0;
 }
 
 /* aside */
 aside{
-    min-width: 883px;
     min-height: 278px;
     margin: 0;
 }

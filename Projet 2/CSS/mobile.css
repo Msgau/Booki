@@ -11,6 +11,12 @@ body{
 header img, #section1>p, .bloc, #section2, #blocfiltre p{
     margin: 0;
 }
+header, #section1, #section2, #section3, article, aside{
+    width: 334px;
+}
+footer{
+    width: 100%;
+}
 /* Header */
 
 header{
