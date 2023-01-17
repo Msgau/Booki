@@ -116,12 +116,12 @@ article{
     width: 375px;
 }
 /* Le aside d'abord */
-aside, article, #section2, #section3{
+/* aside, article, #section2, #section3{
     min-width: 0px;
     min-height: 0px;
     max-width: 0px;
     max-height: 0px;
-}
+} */
 .pop{
     margin: 28px 21px 26px 20px;
 }
