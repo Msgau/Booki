@@ -184,7 +184,8 @@ article h2{
 .bloc{
     display: flex;
     justify-content: space-between;
-    margin: 20px 40px 20px 40px;
+    margin: 20px auto 20px auto;
+    width: 800px;
 }
 .carre{
     /* width: 30%; */
@@ -221,9 +222,10 @@ article h2{
 article{
     background-color: #F2F2F2;
     border-radius: 20px;
-    width: 66%;
-    min-width: 870px;
-    min-height: 626px;
+    /* width: 66%; */
+    min-width: 880px;
+    height: 625px;
+    /* min-height: 620px; */
 }
 #afficher{
     margin-left: 40px;
@@ -240,6 +242,7 @@ aside{
     border-radius: 20px;
     width: 34%;
     min-width: 420px;
+    height: 625px;
 }
 .pop{
     align-items: center;
