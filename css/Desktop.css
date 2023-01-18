@@ -125,13 +125,12 @@ h1{
 #filtres{
     display: flex;
     align-items: center;
-    /* gap:28px; */
-    gap:0.9rem;
+    gap:22px;
 }
 #blocfiltre{
     display: flex;
-    /* margin-left: 28px; */
-    gap:28px;
+    /* margin-left: 8px; */
+    gap:30px;
 }
 #filtres p{
     /* margin-right:28px; */
@@ -151,6 +150,8 @@ h1{
 .filtremob{
     display: flex;
 }
+
+/* Le i */
 
 .fa-info{
     border: 1px solid #F2F2F2;
