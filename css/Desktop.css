@@ -341,7 +341,7 @@ aside h3{
 /* Footer */
 footer{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: #F2F2F2;
     margin-top: 30px;
     border-radius: 3px;
@@ -349,7 +349,10 @@ footer{
     /* padding-right: 327px; */
 }
 .padding40327{
-    padding-right: 220px;
+    padding-right: 327px;
+}
+.padding70{
+    padding-left:70px;
 }
 footer div{
     padding-top: 45px;
