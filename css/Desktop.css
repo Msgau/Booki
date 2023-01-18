@@ -62,6 +62,7 @@ h1{
     margin: 59px 0 9px 0;
     padding: 0;
 }
+
 /* section 1 */
 
 #section1>p{
@@ -69,6 +70,7 @@ h1{
 }
 
 /* Barre de recherche */
+
 #rechercher{
     display: flex;
     height: 49px;
@@ -218,6 +220,7 @@ article h2{
 .carre p{
     font-size: 14px;
 }
+
 article{
     background-color: #F2F2F2;
     border-radius: 20px;
@@ -253,10 +256,12 @@ aside h2, .fa-chart-line{
 aside h2{
     margin: 0;
 }
+
 /* #carresaside{
     display: flex;
     flex-direction: column;
     justify-content: space-between;} */
+
 aside img{
     width: 137px;
     height: 93%;
@@ -296,9 +301,9 @@ aside h3{
     margin-top: 16px;
     font-size: 16px;
 } 
+
 /* #carresaside a{
     height: 22%;} */
-
 
 /* Section 3 */
 #section3{
@@ -341,6 +346,10 @@ footer{
     margin-top: 30px;
     border-radius: 3px;
     height: 225px;
+    /* padding-right: 327px; */
+}
+.padding40327{
+    padding-right: 220px;
 }
 footer div{
     padding-top: 45px;
