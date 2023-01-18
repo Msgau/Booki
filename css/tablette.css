@@ -5,8 +5,13 @@
 #filtres{
     min-width: 835px;
 }
-header, #section1, #section2, #section3, footer, article, aside{
+#section1, #section2, #section3, article, aside{
     width: 880px;
+}
+/* header */
+
+header img{
+    margin-left: 0;
 }
 /* Article */
 article{
@@ -61,6 +66,10 @@ aside p, aside h3, aside .etoile{
     align-items: center;
     height: 57px;
 }
+/* footer */
+footer{
+    width: 100%;
+}
 .padding40327{
-    padding-right: 173px;
+    padding-right: 170px;
 }
