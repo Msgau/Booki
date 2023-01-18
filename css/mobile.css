@@ -104,10 +104,12 @@ aside, article{
     min-width: 0px;
     border-radius: 0;
 }
+
 article{
     width: 100%;
     background-color: white;
-    margin-bottom: 95px;
+    margin-bottom: 105px;
+    height: 1327px;
 }
 #section2{
     flex-direction: column-reverse;
@@ -116,7 +118,7 @@ article{
 /* Le aside d'abord */
 aside{
     min-width: 0;
-    min-height: 0;
+    height: 580px;
 }
 .pop{
     margin: 28px 21px 26px 20px;

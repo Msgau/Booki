@@ -18,6 +18,7 @@ article{
 aside{
     min-height: 278px;
     margin: 0;
+    height: 278px;
 }
 aside img{
     width: 106px;
