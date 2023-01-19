@@ -1,27 +1,25 @@
+/* Général */
 
-#section2{
-    flex-direction: column;
-}
 #filtres{
     min-width: 835px;
 }
 #section1, #section2, #section3, article, aside{
     width: 880px;
 }
-/* header */
 
-header img{
-    margin-left: 0;
+/* section2 */
+
+#section2{
+    flex-direction: column;
 }
-/* Article */
+
 article{
     margin-bottom: 53px;
-    min-height: 0;
 }
 
 /* aside */
+
 aside{
-    min-height: 278px;
     margin: 0;
     height: 278px;
 }
@@ -43,6 +41,7 @@ aside p, aside h3, aside .etoile{
 }
 
 /* Section3 */
+
 #section3{
     min-width: 883px;
 }
@@ -66,7 +65,9 @@ aside p, aside h3, aside .etoile{
     align-items: center;
     height: 57px;
 }
+
 /* footer */
+
 footer{
     width: 100%;
 }
